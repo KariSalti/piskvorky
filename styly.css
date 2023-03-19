@@ -1,12 +1,49 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #ffc8da;
+  background: linear-gradient(0deg, rgba(255, 200, 218, 1) 0%, rgba(75, 71, 148, 1) 100%);
+}
+
+.container {
+  width: 300px;
+}
+
+.image-wrapper {
+  width: 100%;
+
+}
+
+.image-wrapper img {
+  width: 100%;
+
+}
+
 h1 {
   font-family: 'Lobster',
     cursive;
   font-size: 40px;
   text-align: center;
+  color: #ffffff;
 
 }
 
 p {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  color: #ffffff;
+}
+
+h1,
+p {
+
+  background-color: #283e50;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
 }
