@@ -24,11 +24,11 @@ body {
 
 .image-wrapper img {
   width: 100%;
-
 }
 
 .content {
   background-color: #283e50;
+  color: #ffffff;
 }
 
 h1 {
@@ -36,13 +36,10 @@ h1 {
     cursive;
   font-size: 40px;
   text-align: center;
-  color: #ffffff;
-
 }
 
 p {
   text-align: center;
-  color: #ffffff;
   padding: 0 12px 16px 12px;
   font-size: 14px;
   line-height: 1.5;
