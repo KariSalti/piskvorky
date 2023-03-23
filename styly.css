@@ -15,19 +15,20 @@ body {
   flex-direction: column;
   margin: 0 auto;
   margin-top: 60px;
+  background-color: #283e50;
 }
 
 .image-wrapper {
-  width: 100%;
   display: flex;
 }
 
 .image-wrapper img {
   width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .content {
-  background-color: #283e50;
   color: #ffffff;
 }
 
@@ -64,6 +65,7 @@ p {
 
 .btn-rules {
   background-color: #1fcca4;
+  margin-bottom: 1px;
 }
 
 .btn-rules:hover {
